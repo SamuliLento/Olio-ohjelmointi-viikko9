@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void switchToUsersList(View view) {
+    public void switchToUserList(View view) {
         Intent intent = new Intent(this, UserListActivity.class);
         startActivity(intent);
     }
